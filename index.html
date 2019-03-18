@@ -996,9 +996,8 @@ img { max-width: 100%; }
 			<blockquote>
 				<p>TypeScript api wrapper for <a href="https://deluge-torrent.org/">deluge</a> using <a href="https://github.com/sindresorhus/got">got</a></p>
 			</blockquote>
-			<p>The advantage to writing your own http requests is the auth is already setup and type definitions are availabe for all responses.</p>
 			<h3 id="install">Install</h3>
-			<pre><code class="language-bash">npm install @ctrl/deluge</code></pre>
+			<pre><code class="language-console">npm install @ctrl/deluge</code></pre>
 			<h3 id="use">Use</h3>
 			<pre><code class="language-ts"><span class="hljs-keyword">import</span> { Deluge } <span class="hljs-keyword">from</span> <span class="hljs-string">'@ctrl/deluge'</span>;
 
@@ -1008,8 +1007,7 @@ img { max-width: 100%; }
 });
 
 <span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">main</span>(<span class="hljs-params"></span>) </span>{
-  <span class="hljs-keyword">const</span> res = <span class="hljs-keyword">await</span> deluge.listTorrents();
-  <span class="hljs-comment">// listTorrents returns a TorrentListResponse and types are available</span>
+  <span class="hljs-keyword">const</span> res = <span class="hljs-keyword">await</span> deluge.getAllData();
   <span class="hljs-built_in">console</span>.log(res.result);
 }</code></pre>
 			<h3 id="api">API</h3>
@@ -1074,7 +1072,7 @@ img { max-width: 100%; }
 				<div class="tsd-signature tsd-kind-icon">Host<wbr>Status<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"Online"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Offline"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"Connected"</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/TypeCtrl/deluge/blob/8542ea7/src/types.ts#L40">types.ts:40</a></li>
+						<li>Defined in <a href="https://github.com/TypeCtrl/deluge/blob/5726b88/src/types.ts#L40">types.ts:40</a></li>
 					</ul>
 				</aside>
 			</section>
