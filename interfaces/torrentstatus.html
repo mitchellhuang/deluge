@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>TorrentFile | @ctrl/qbittorrent</title>
+	<title>TorrentStatus | @ctrl/deluge</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">/*! normalize.css v1.1.3 | MIT License | git.io/normalize */
@@ -879,7 +879,7 @@ img { max-width: 100%; }
 		<div class="container">
 			<div class="table-wrap">
 				<div class="table-cell">
-					<strong><a href="../index.html">@ctrl/qbittorrent</a></strong>
+					<strong><a href="../index.html">@ctrl/deluge</a></strong>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -909,67 +909,94 @@ img { max-width: 100%; }
 </header>
 <nav class="tsd-navigation secondary">
 	<ul>
-		<li class=" tsd-kind-enum">
-			<a href="../enums/torrentfilepriority.html" class="tsd-kind-icon">Torrent<wbr>File<wbr>Priority</a>
-		</li>
-		<li class=" tsd-kind-enum">
-			<a href="../enums/torrentpiecestate.html" class="tsd-kind-icon">Torrent<wbr>Piece<wbr>State</a>
-		</li>
-		<li class=" tsd-kind-enum">
-			<a href="../enums/torrentstate.html" class="tsd-kind-icon">Torrent<wbr>State</a>
-		</li>
-		<li class=" tsd-kind-enum">
-			<a href="../enums/torrenttrackerstatus.html" class="tsd-kind-icon">Torrent<wbr>Tracker<wbr>Status</a>
-		</li>
 		<li class=" tsd-kind-class">
-			<a href="../classes/qbittorrent.html" class="tsd-kind-icon">QBittorrent</a>
+			<a href="../classes/deluge.html" class="tsd-kind-icon">Deluge</a>
 		</li>
 		<li class=" tsd-kind-interface">
 			<a href="addtorrentoptions.html" class="tsd-kind-icon">Add<wbr>Torrent<wbr>Options</a>
 		</li>
 		<li class=" tsd-kind-interface">
-			<a href="buildinfo.html" class="tsd-kind-icon">Build<wbr>Info</a>
+			<a href="booleanstatus.html" class="tsd-kind-icon">Boolean<wbr>Status</a>
+		</li>
+		<li class=" tsd-kind-interface">
+			<a href="configresponse.html" class="tsd-kind-icon">Config<wbr>Response</a>
+		</li>
+		<li class=" tsd-kind-interface">
+			<a href="defaultresponse.html" class="tsd-kind-icon">Default<wbr>Response</a>
+		</li>
+		<li class=" tsd-kind-interface">
+			<a href="delugesettings.html" class="tsd-kind-icon">Deluge<wbr>Settings</a>
+		</li>
+		<li class=" tsd-kind-interface">
+			<a href="gethoststatusresponse.html" class="tsd-kind-icon">Get<wbr>Host<wbr>Status<wbr>Response</a>
+		</li>
+		<li class=" tsd-kind-interface">
+			<a href="gethostsresponse.html" class="tsd-kind-icon">Get<wbr>Hosts<wbr>Response</a>
+		</li>
+		<li class=" tsd-kind-interface">
+			<a href="listmethods.html" class="tsd-kind-icon">List<wbr>Methods</a>
+		</li>
+		<li class=" tsd-kind-interface">
+			<a href="plugininfo.html" class="tsd-kind-icon">Plugin<wbr>Info</a>
+		</li>
+		<li class=" tsd-kind-interface">
+			<a href="pluginslistresponse.html" class="tsd-kind-icon">Plugins<wbr>List<wbr>Response</a>
+		</li>
+		<li class=" tsd-kind-interface">
+			<a href="stats.html" class="tsd-kind-icon">Stats</a>
 		</li>
 		<li class=" tsd-kind-interface">
 			<a href="torrent.html" class="tsd-kind-icon">Torrent</a>
 		</li>
+		<li class=" tsd-kind-interface">
+			<a href="torrentcontentdir.html" class="tsd-kind-icon">Torrent<wbr>Content<wbr>Dir</a>
+		</li>
+		<li class=" tsd-kind-interface">
+			<a href="torrentcontentfile.html" class="tsd-kind-icon">Torrent<wbr>Content<wbr>File</a>
+		</li>
+		<li class=" tsd-kind-interface">
+			<a href="torrentfiles.html" class="tsd-kind-icon">Torrent<wbr>Files</a>
+		</li>
+		<li class=" tsd-kind-interface">
+			<a href="torrentfilters.html" class="tsd-kind-icon">Torrent<wbr>Filters</a>
+		</li>
+		<li class=" tsd-kind-interface">
+			<a href="torrentinfo.html" class="tsd-kind-icon">Torrent<wbr>Info</a>
+		</li>
+		<li class=" tsd-kind-interface">
+			<a href="torrentlist.html" class="tsd-kind-icon">Torrent<wbr>List</a>
+		</li>
+		<li class=" tsd-kind-interface">
+			<a href="torrentlistresponse.html" class="tsd-kind-icon">Torrent<wbr>List<wbr>Response</a>
+		</li>
+		<li class=" tsd-kind-interface">
+			<a href="torrentoptions.html" class="tsd-kind-icon">Torrent<wbr>Options</a>
+		</li>
+		<li class=" tsd-kind-interface">
+			<a href="torrentpeers.html" class="tsd-kind-icon">Torrent<wbr>Peers</a>
+		</li>
 		<li class="current tsd-kind-interface">
-			<a href="torrentfile.html" class="tsd-kind-icon">Torrent<wbr>File</a>
+			<a href="torrentstatus.html" class="tsd-kind-icon">Torrent<wbr>Status</a>
 			<ul>
-				<li class=" tsd-kind-property tsd-parent-kind-interface">
-					<a href="torrentfile.html#availability" class="tsd-kind-icon">availability</a>
+				<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a href="torrentstatus.html#error" class="tsd-kind-icon">error</a>
 				</li>
-				<li class=" tsd-kind-property tsd-parent-kind-interface">
-					<a href="torrentfile.html#is_seed" class="tsd-kind-icon">is_<wbr>seed</a>
+				<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a href="torrentstatus.html#id" class="tsd-kind-icon">id</a>
 				</li>
-				<li class=" tsd-kind-property tsd-parent-kind-interface">
-					<a href="torrentfile.html#name" class="tsd-kind-icon">name</a>
-				</li>
-				<li class=" tsd-kind-property tsd-parent-kind-interface">
-					<a href="torrentfile.html#piece_range" class="tsd-kind-icon">piece_<wbr>range</a>
-				</li>
-				<li class=" tsd-kind-property tsd-parent-kind-interface">
-					<a href="torrentfile.html#priority" class="tsd-kind-icon">priority</a>
-				</li>
-				<li class=" tsd-kind-property tsd-parent-kind-interface">
-					<a href="torrentfile.html#progress" class="tsd-kind-icon">progress</a>
-				</li>
-				<li class=" tsd-kind-property tsd-parent-kind-interface">
-					<a href="torrentfile.html#size" class="tsd-kind-icon">size</a>
+				<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-overwrite">
+					<a href="torrentstatus.html#result" class="tsd-kind-icon">result</a>
 				</li>
 			</ul>
 		</li>
 		<li class=" tsd-kind-interface">
-			<a href="torrentproperties.html" class="tsd-kind-icon">Torrent<wbr>Properties</a>
+			<a href="tracker.html" class="tsd-kind-icon">Tracker</a>
 		</li>
 		<li class=" tsd-kind-interface">
-			<a href="torrenttrackers.html" class="tsd-kind-icon">Torrent<wbr>Trackers</a>
-		</li>
-		<li class=" tsd-kind-interface">
-			<a href="webseed.html" class="tsd-kind-icon">Web<wbr>Seed</a>
+			<a href="uploadresponse.html" class="tsd-kind-icon">Upload<wbr>Response</a>
 		</li>
 		<li class=" tsd-kind-type-alias">
-			<a href="../globals.html#torrentfilters" class="tsd-kind-icon">Torrent<wbr>Filters</a>
+			<a href="../globals.html#hoststatus" class="tsd-kind-icon">Host<wbr>Status</a>
 		</li>
 	</ul>
 </nav>
@@ -979,7 +1006,12 @@ img { max-width: 100%; }
 			<h3>Hierarchy</h3>
 			<ul class="tsd-hierarchy">
 				<li>
-					<span class="target">TorrentFile</span>
+					<a href="defaultresponse.html" class="tsd-signature-type">DefaultResponse</a>
+					<ul class="tsd-hierarchy">
+						<li>
+							<span class="target">TorrentStatus</span>
+						</li>
+					</ul>
 				</li>
 			</ul>
 		</section>
@@ -990,13 +1022,9 @@ img { max-width: 100%; }
 					<section class="tsd-index-section ">
 						<h3>Properties</h3>
 						<ul class="tsd-index-list">
-							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="torrentfile.html#availability" class="tsd-kind-icon">availability</a></li>
-							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="torrentfile.html#is_seed" class="tsd-kind-icon">is_<wbr>seed</a></li>
-							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="torrentfile.html#name" class="tsd-kind-icon">name</a></li>
-							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="torrentfile.html#piece_range" class="tsd-kind-icon">piece_<wbr>range</a></li>
-							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="torrentfile.html#priority" class="tsd-kind-icon">priority</a></li>
-							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="torrentfile.html#progress" class="tsd-kind-icon">progress</a></li>
-							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="torrentfile.html#size" class="tsd-kind-icon">size</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="torrentstatus.html#error" class="tsd-kind-icon">error</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="torrentstatus.html#id" class="tsd-kind-icon">id</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-overwrite"><a href="torrentstatus.html#result" class="tsd-kind-icon">result</a></li>
 						</ul>
 					</section>
 				</div>
@@ -1004,110 +1032,43 @@ img { max-width: 100%; }
 		</section>
 		<section class="tsd-panel-group tsd-member-group ">
 			<h2>Properties</h2>
-			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-				<a name="availability" class="tsd-anchor"></a>
-				<h3>availability</h3>
-				<div class="tsd-signature tsd-kind-icon">availability<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+				<a name="error" class="tsd-anchor"></a>
+				<h3>error</h3>
+				<div class="tsd-signature tsd-kind-icon">error<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
+					<p>Inherited from <a href="defaultresponse.html">DefaultResponse</a>.<a href="defaultresponse.html#error">error</a></p>
 					<ul>
-						<li>Defined in <a href="https://github.com/TypeCtrl/qbittorrent/blob/4b18918/src/types.ts#L459">types.ts:459</a></li>
+						<li>Defined in <a href="https://github.com/TypeCtrl/deluge/blob/85adac7/src/types.ts#L6">types.ts:6</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+				<a name="id" class="tsd-anchor"></a>
+				<h3>id</h3>
+				<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+				<aside class="tsd-sources">
+					<p>Inherited from <a href="defaultresponse.html">DefaultResponse</a>.<a href="defaultresponse.html#id">id</a></p>
+					<ul>
+						<li>Defined in <a href="https://github.com/TypeCtrl/deluge/blob/85adac7/src/types.ts#L5">types.ts:5</a></li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Percentage of file pieces currently available</p>
+						<p>mostly usless id that increments with every request</p>
 					</div>
 				</div>
 			</section>
-			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-				<a name="is_seed" class="tsd-anchor"></a>
-				<h3>is_<wbr>seed</h3>
-				<div class="tsd-signature tsd-kind-icon">is_<wbr>seed<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-overwrite">
+				<a name="result" class="tsd-anchor"></a>
+				<h3>result</h3>
+				<div class="tsd-signature tsd-kind-icon">result<span class="tsd-signature-symbol">:</span> <a href="torrent.html" class="tsd-signature-type">Torrent</a></div>
 				<aside class="tsd-sources">
+					<p>Overrides <a href="defaultresponse.html">DefaultResponse</a>.<a href="defaultresponse.html#result">result</a></p>
 					<ul>
-						<li>Defined in <a href="https://github.com/TypeCtrl/qbittorrent/blob/4b18918/src/types.ts#L451">types.ts:451</a></li>
+						<li>Defined in <a href="https://github.com/TypeCtrl/deluge/blob/85adac7/src/types.ts#L192">types.ts:192</a></li>
 					</ul>
 				</aside>
-				<div class="tsd-comment tsd-typography">
-					<div class="lead">
-						<p>True if file is seeding/complete</p>
-					</div>
-				</div>
-			</section>
-			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-				<a name="name" class="tsd-anchor"></a>
-				<h3>name</h3>
-				<div class="tsd-signature tsd-kind-icon">name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in <a href="https://github.com/TypeCtrl/qbittorrent/blob/4b18918/src/types.ts#L435">types.ts:435</a></li>
-					</ul>
-				</aside>
-				<div class="tsd-comment tsd-typography">
-					<div class="lead">
-						<p>File name (including relative path)</p>
-					</div>
-				</div>
-			</section>
-			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-				<a name="piece_range" class="tsd-anchor"></a>
-				<h3>piece_<wbr>range</h3>
-				<div class="tsd-signature tsd-kind-icon">piece_<wbr>range<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">]</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in <a href="https://github.com/TypeCtrl/qbittorrent/blob/4b18918/src/types.ts#L455">types.ts:455</a></li>
-					</ul>
-				</aside>
-				<div class="tsd-comment tsd-typography">
-					<div class="lead">
-						<p>array    The first number is the starting piece index and the second number is the ending piece index (inclusive)</p>
-					</div>
-				</div>
-			</section>
-			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-				<a name="priority" class="tsd-anchor"></a>
-				<h3>priority</h3>
-				<div class="tsd-signature tsd-kind-icon">priority<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in <a href="https://github.com/TypeCtrl/qbittorrent/blob/4b18918/src/types.ts#L447">types.ts:447</a></li>
-					</ul>
-				</aside>
-				<div class="tsd-comment tsd-typography">
-					<div class="lead">
-						<p>File priority. See possible values here below</p>
-					</div>
-				</div>
-			</section>
-			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-				<a name="progress" class="tsd-anchor"></a>
-				<h3>progress</h3>
-				<div class="tsd-signature tsd-kind-icon">progress<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in <a href="https://github.com/TypeCtrl/qbittorrent/blob/4b18918/src/types.ts#L443">types.ts:443</a></li>
-					</ul>
-				</aside>
-				<div class="tsd-comment tsd-typography">
-					<div class="lead">
-						<p>File progress (percentage/100)</p>
-					</div>
-				</div>
-			</section>
-			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-				<a name="size" class="tsd-anchor"></a>
-				<h3>size</h3>
-				<div class="tsd-signature tsd-kind-icon">size<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in <a href="https://github.com/TypeCtrl/qbittorrent/blob/4b18918/src/types.ts#L439">types.ts:439</a></li>
-					</ul>
-				</aside>
-				<div class="tsd-comment tsd-typography">
-					<div class="lead">
-						<p>File size (bytes)</p>
-					</div>
-				</div>
 			</section>
 		</section>
 		<footer>
